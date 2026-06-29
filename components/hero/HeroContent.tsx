@@ -11,7 +11,7 @@ export default function HeroContent() {
       <h1
         className="
         font-[var(--font-space)]
-        text-[36px]
+        text-[32px]
         sm:text-[48px]
         md:text-[72px]
         lg:text-[88px]
@@ -28,7 +28,7 @@ export default function HeroContent() {
       <h1
         className="
         font-[var(--font-space)]
-        text-[36px]
+        text-[32px]
         sm:text-[48px]
         md:text-[72px]
         lg:text-[88px]
