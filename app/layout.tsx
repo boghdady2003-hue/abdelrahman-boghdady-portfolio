@@ -44,23 +44,53 @@ export const metadata: Metadata = {
 
   creator: "Abdelrahman Boghdady",
 
-  metadataBase: new URL("https://YOUR-DOMAIN.vercel.app"),
+  category: "Portfolio",
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  metadataBase: new URL(
+    "https://abdelrahman-boghdady-portfolio.vercel.app"
+  ),
+
+  icons: {
+    icon: "/favicon.ico",
+  },
 
   openGraph: {
     title: "ABDELRAHMAN BOGHDADY | Graphic Designer",
     description:
-      "Professional Graphic Designer specializing in Branding and Social Media Design.",
-    url: "https://YOUR-DOMAIN.vercel.app",
+      "Professional Graphic Designer specializing in Branding, Visual Identity, and Social Media Design.",
+
+    url: "https://abdelrahman-boghdady-portfolio.vercel.app",
+
     siteName: "ABDELRAHMAN BOGHDADY",
+
     locale: "en_US",
+
     type: "website",
+
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Abdelrahman Boghdady Portfolio",
+      },
+    ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "ABDELRAHMAN BOGHDADY",
+
+    title: "ABDELRAHMAN BOGHDADY | Graphic Designer",
+
     description:
-      "Professional Graphic Designer Portfolio",
+      "Professional Graphic Designer specializing in Branding and Social Media Design.",
+
+    images: ["/og-image.jpg"],
   },
 };
 
