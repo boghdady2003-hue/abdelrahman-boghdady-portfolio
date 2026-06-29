@@ -25,7 +25,7 @@ const stats = [
 
 export default function HeroStats() {
   return (
-    <div className="grid grid-cols-2 gap-7 mt-16 max-w-2xl">
+    <div className="grid grid-cols-2 gap-5 sm:gap-7 mt-16 max-w-2xl">
 
       {stats.map((item) => (
         <div
@@ -37,7 +37,7 @@ export default function HeroStats() {
           border-violet-500/20
           bg-white/[0.04]
           backdrop-blur-xl
-          p-8
+          p-5 sm:p-8
           transition-all
           duration-500
           hover:-translate-y-2
@@ -49,7 +49,9 @@ export default function HeroStats() {
 
           <h2
             className="
-            text-6xl
+            text-4xl
+            sm:text-5xl
+            lg:text-6xl
             font-black
             text-violet-400
             transition
@@ -60,11 +62,11 @@ export default function HeroStats() {
             {item.number}
           </h2>
 
-          <h3 className="mt-4 text-2xl font-bold text-white">
+          <h3 className="mt-3 text-lg sm:text-xl lg:text-2xl font-bold text-white">
             {item.title}
           </h3>
 
-          <p className="mt-2 text-zinc-400 text-lg">
+          <p className="mt-2 text-sm sm:text-base lg:text-lg text-zinc-400">
             {item.subtitle}
           </p>
 
