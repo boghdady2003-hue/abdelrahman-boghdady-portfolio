@@ -17,72 +17,38 @@ export default function About() {
           WHO I AM
         </h2>
 
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="max-w-4xl">
 
-          {/* Left Side */}
+          <p className="text-zinc-400 text-lg leading-10">
+            I'm{" "}
+            <span className="text-white font-semibold">
+              Abdelrahman Boghdady
+            </span>
+            , a Graphic Designer specializing in{" "}
+            <span className="text-violet-400">Branding</span>,
+            <span className="text-violet-400">
+              {" "}Social Media Design
+            </span>
+            , and
+            <span className="text-violet-400">
+              {" "}Visual Identity
+            </span>
+            .
 
-          <div>
+            <br />
+            <br />
 
-            <p className="text-zinc-400 text-lg leading-10">
-              I'm <span className="text-white font-semibold">Abdelrahman Boghdady</span>,
-              a Graphic Designer specializing in <span className="text-violet-400">Branding</span>,
-              <span className="text-violet-400"> Social Media Design</span>, and
-              <span className="text-violet-400"> Visual Identity</span>.
+            Over the past <span className="text-white font-semibold">5+ years</span>,
+            I've worked with businesses across Egypt and the Gulf, helping
+            brands create modern, memorable, and conversion-focused visual
+            experiences.
 
-              <br /><br />
+            <br />
+            <br />
 
-              Over the past 5+ years, I've worked with businesses across Egypt
-              and the Gulf, helping brands create modern, memorable, and
-              conversion-focused visual experiences.
-            </p>
-
-          </div>
-
-          {/* Right Side */}
-
-          <div className="grid grid-cols-2 gap-6">
-
-            <div className="rounded-3xl border border-violet-500/20 bg-[#111] p-8 hover:border-violet-500 duration-300 hover:-translate-y-2">
-              <h3 className="text-6xl font-black text-violet-400">
-                5+
-              </h3>
-
-              <p className="mt-4 text-zinc-400">
-                Years Experience
-              </p>
-            </div>
-
-            <div className="rounded-3xl border border-violet-500/20 bg-[#111] p-8 hover:border-violet-500 duration-300 hover:-translate-y-2">
-              <h3 className="text-6xl font-black text-violet-400">
-                200+
-              </h3>
-
-              <p className="mt-4 text-zinc-400">
-                Projects Completed
-              </p>
-            </div>
-
-            <div className="rounded-3xl border border-violet-500/20 bg-[#111] p-8 hover:border-violet-500 duration-300 hover:-translate-y-2">
-              <h3 className="text-6xl font-black text-violet-400">
-                50+
-              </h3>
-
-              <p className="mt-4 text-zinc-400">
-                Happy Clients
-              </p>
-            </div>
-
-            <div className="rounded-3xl border border-violet-500/20 bg-[#111] p-8 hover:border-violet-500 duration-300 hover:-translate-y-2">
-              <h3 className="text-6xl font-black text-violet-400">
-                100%
-              </h3>
-
-              <p className="mt-4 text-zinc-400">
-                Client Satisfaction
-              </p>
-            </div>
-
-          </div>
+            My goal is to transform ideas into powerful visual identities that
+            capture attention, strengthen brands, and leave a lasting impact.
+          </p>
 
         </div>
       </section>
