@@ -8,11 +8,34 @@ export default function HeroContent() {
         ENG
       </h2>
 
-      <h1 className="font-[var(--font-space)] text-5xl sm:text-6xl md:text-7xl xl:text-[105px] font-black leading-[0.9] uppercase break-words">
+      <h1
+        className="
+        font-[var(--font-space)]
+        text-[52px]
+        sm:text-[64px]
+        md:text-[80px]
+        xl:text-[105px]
+        font-black
+        leading-[0.9]
+        uppercase
+        "
+      >
         ABDELRAHMAN
       </h1>
 
-      <h1 className="font-[var(--font-space)] text-5xl sm:text-6xl md:text-7xl xl:text-[105px] font-black leading-[0.9] uppercase mb-8 break-words">
+      <h1
+        className="
+        font-[var(--font-space)]
+        text-[52px]
+        sm:text-[64px]
+        md:text-[80px]
+        xl:text-[105px]
+        font-black
+        leading-[0.9]
+        uppercase
+        mb-8
+        "
+      >
         BOGHDADY
       </h1>
 
@@ -37,10 +60,11 @@ export default function HeroContent() {
           from-violet-600
           via-purple-600
           to-fuchsia-600
-          hover:scale-105
-          duration-300
           font-bold
           uppercase
+          transition-all
+          duration-300
+          hover:scale-105
           shadow-[0_0_35px_rgba(139,92,246,.45)]
           "
         >
@@ -58,11 +82,12 @@ export default function HeroContent() {
           rounded-full
           border
           border-violet-500
+          font-bold
+          uppercase
+          transition-all
+          duration-300
           hover:bg-violet-600/20
           hover:border-violet-400
-          duration-300
-          uppercase
-          font-bold
           "
         >
           HIRE ME
